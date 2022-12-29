@@ -185,7 +185,6 @@ const App = () => {
           (
             <button onClick={askContractToMintNft} className="cta-button mint-button" disabled={isMining}>Mint NFT</button>
           )}
-          
          
         </div>
         <div className="footer-container">
