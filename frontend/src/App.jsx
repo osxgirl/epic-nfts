@@ -180,7 +180,7 @@ const App = () => {
             Each unique. Each beautiful. Discover your NFT today.
           </p>
           <img alt="Cupcake Logo" className="cupcake" src={cupcake} /><br></br>
-          <p className="sub-sub-text">{totalMinted}/500 NFTs Minted So Far</p>
+          <p className="sub-sub-text">{totalMinted}/{TOTAL_MINT_COUNT}</p>
           {!currentAccount ? renderNotConnectedContainer() :
           (
             <button onClick={askContractToMintNft} className="cta-button mint-button" disabled={isMining}>Mint NFT</button>
