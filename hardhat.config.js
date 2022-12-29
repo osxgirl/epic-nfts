@@ -9,4 +9,7 @@ module.exports = {
       accounts: [process.env.GOERLI_PRIVATE_KEY],
     },
   },
+  etherscan: {
+    apiKey: "SERIOUSLY?!",
+  }
 };
